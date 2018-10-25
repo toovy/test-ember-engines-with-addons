@@ -3,6 +3,7 @@
 This is an ember project. To run it:
 
 - clone it
+- cd into the project
 - run `$ npm install`
 - run `$ cd lib/source-code-editor/ && npm install && cd ../..`
 - run `$ ember s`
