@@ -1,8 +1,9 @@
-{{#lazy-mount "source-code-editor" as |engine|}}
+{{!-- {{#lazy-mount "source-code-editor" as |engine|}}
   {{#if engine.isLoading}}
     🕑 The engine is loading...
   {{else if engine.error}}
     😨 There was an error loading the engine:
     <code>{{engine.error}}</code>
   {{/if}}
-{{/lazy-mount}}
+{{/lazy-mount}} --}}
+{{mount "source-code-editor"}}
